@@ -25,10 +25,11 @@ Use the Template Method Pattern when:
 
 An example of the Template Method Pattern is a data processing pipeline that includes steps such as data extraction, transformation, and loading. The base class defines the overall algorithm structure, and subclasses override specific steps to provide custom implementations for data extraction or transformation.
 
+UML :
 
 ![Inheritance uml](/src/behavioral/templateMethode/uml-gof.png?raw=true "strategy pattern uml")
 
 
-With a basic implementation, using hooks
+Same UML but now using hooks
 
 ![Inheritance uml](/src/behavioral/templateMethode/uml-gof-hooks.png?raw=true "strategy pattern uml")
