@@ -1,4 +1,4 @@
-package behavioral.state_pattern;
+package behavioral.state;
 
 public class EraserTool implements Tool {
 
