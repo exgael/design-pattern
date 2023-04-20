@@ -14,7 +14,7 @@ There is a phew problem with this implementations.
 `Wich principle can solve this problem?`
 
     1 - Polymorphism principle which brings us to the strategy pattern.
-![Polymorphism uml](/src/behavioral/templateMethode/problem/polymorphism.png?raw=true "strategy pattern uml")
+![Polymorphism uml](/src/behavioral/templateMethode/problem/readme-images/polymorphism.png?raw=true "strategy pattern uml")
     
     2 - Inheritance which brings us to the templace method pattern.
-![Inheritance uml](/src/behavioral/templateMethode/problem/inheritance.png?raw=true "strategy pattern uml")
+![Inheritance uml](/src/behavioral/templateMethode/problem/readme-images/inheritance.png?raw=true "strategy pattern uml")
