@@ -28,3 +28,4 @@ Use the Command Pattern when:
 ## Example
 
 An example of the Command Pattern is a text editor with a toolbar for performing actions like copy, paste, and undo. The toolbar (invoker) holds references to command objects representing each action. When the user clicks a button, the corresponding command is executed. The command objects encapsulate the logic required to perform the action on the text (receiver), allowing for easy extension and modification of the editor's functionality.
+![iterator uml](/images/command-uml-gof.png?raw=true "iterator uml")
