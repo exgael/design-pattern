@@ -20,7 +20,7 @@ public class BrowseHistory {
     // keep it as raw type, 
     // use :
     // var iterator = createIterator()
-    public Iterator createIterator() { 
+    public Iterator<?> createIterator() { 
         return new ListIterator(this);
     }
 
