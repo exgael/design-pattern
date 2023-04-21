@@ -13,7 +13,6 @@ public class Button extends  UIControl{
 
     public void setEnabled(boolean enabled) {
         isEnabled = enabled;
-        owner.changed(this);
     }
     
     
