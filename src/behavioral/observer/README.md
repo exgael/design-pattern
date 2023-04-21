@@ -28,4 +28,5 @@ An example of the Observer Pattern is a weather monitoring system, where a weath
 
 
 ![observer uml](/images/observer-uml-gof.png?raw=true "observer uml")
+![observer uml](/images/observer-push-style-uml.png?raw=true "observer uml")
 ![observer uml](/images/observer-pull-style-uml.png?raw=true "observer uml")
