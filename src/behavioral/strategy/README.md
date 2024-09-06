@@ -2,19 +2,19 @@ The Strategy Pattern, also known as the Policy Pattern, is a behavioral design p
 
 The primary goals of the Strategy Pattern are to:
 
-1 - `Encapsulate related algorithms`: 
+1 - Encapsulate related algorithms: 
     
     By defining a common interface for all supported algorithms, the Strategy Pattern promotes the separation of concerns, keeping the algorithm implementations independent from the context that uses them. This encourages modular, maintainable, and reusable code.
 
-2 - `Enable the dynamic selection of algorithms`: 
+2 - Enable the dynamic selection of algorithms: 
     
     The Strategy Pattern allows clients to change the algorithm or behavior used by a context object at runtime. This provides flexibility in choosing the appropriate algorithm based on specific conditions or requirements, without having to modify the client or context code.
 
-3 - `Reduce code duplication`: 
+3 - Reduce code duplication: 
     
     Instead of implementing multiple versions of a class or method with slight variations in behavior, the Strategy Pattern encourages the encapsulation of varying behaviors as separate classes that implement a common interface. This promotes code reusability and reduces the risk of bugs caused by duplicated code.
 
-4 - `Improve maintainability and testability`: 
+4 - Improve maintainability and testability: 
     
     The Strategy Pattern promotes the decoupling of algorithm implementations from the context that uses them. This makes it easier to modify, extend, or replace individual algorithms without affecting the rest of the system. It also simplifies testing, as each algorithm can be tested independently of the context that uses it.
 
